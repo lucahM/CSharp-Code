@@ -9,9 +9,6 @@ namespace VersionControl1
 {
     public partial class frmFinsurvVersionControl : Form
     {
-
-        
-
         public frmFinsurvVersionControl()
         {
             InitializeComponent();
