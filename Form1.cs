@@ -129,8 +129,6 @@ namespace VersionControl1
 
             this.cmbEnvironment.DropDownStyle = ComboBoxStyle.DropDownList;
             this.cmbFileName.DropDownStyle = ComboBoxStyle.DropDownList;
-
-            
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -175,7 +173,6 @@ namespace VersionControl1
                 version = (string)cmds.ExecuteScalar();
                 txtVersion.Text = version;
                 conn.Close();
-                
             }
         }
 
